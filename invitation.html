@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Birthday Celebration</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="hero">
+    <img src="C:\Users\raksh\OneDrive\Desktop\birthday.jpg" alt="Birthday Celebration" class="hero-image" />
+
+    <div class="content">
+      <h1>Birthday Celebration</h1>
+      <p>Join us for a joyful evening as we celebrate Gowri's Birthday.</p>
+      <time datetime="2025-08-15T17:00">May 17, 2025 at 5:00 PM</time>
+      <p>Rose Garden Venue, Palace Grounds, Bangalore</p>
+
+      <a href="#rsvp" class="rsvp-button">RSVP Now</a>
+
+      <!-- Social Share -->
+      <div class="social-share">
+        <p>Share this event:</p>
+        <div class="icons">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://your-event-link.com" target="_blank" aria-label="Share on Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com/intent/tweet?url=https://your-event-link.com&text=Join%20us%20for%20Gowri's%20Birthday%20Celebration!" target="_blank" aria-label="Share on Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://your-event-link.com" target="_blank" aria-label="Share on LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RSVP Form -->
+  <section id="rsvp" class="form-section">
+    <h2>RSVP Form</h2>
+    <form>
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="attending">Will you attend?</label>
+      <select id="attending" name="attending">
+        <option value="yes">Yes, I’ll be there</option>
+        <option value="maybe">Maybe</option>
+        <option value="no">No, I can’t make it</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</body>
+</html>
